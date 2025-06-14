@@ -1,0 +1,41 @@
+body, main{
+     display: flex;
+}
+body{
+     flex-direction: column;
+}
+main{
+    flex-direction: row;
+    flex: auto;
+    overflow-y: auto;
+}
+article{
+    flex:3;
+}
+aside{
+    flex:1;
+}
+#Hero {
+     font-family: Oswald;
+    font-size: 12px;
+    margin-left: 15px;
+    color: rgb(38, 25, 17);
+}
+
+.Caption{
+    font-family: Oswald;
+    font-size:90px;
+    font-weight: 700;
+    margin: 15px 0 15px;
+    color: rgb(0, 0, 0);
+}
+.mar{
+    font-family: Fjalla One;
+    font-size: 20px;
+	margin: 3px 0 2px;
+    margin-left: 10px;
+    color: rgb(38, 25, 17);
+}
+body{
+     background-color: rgb(249, 246, 239);
+}
