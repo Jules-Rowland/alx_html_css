@@ -111,6 +111,66 @@ header {
     margin-top: 40px;
 }
 
-/* White subtext box over the image */
+@media screen and (max-width: 480px) {
+  /* General layout */
+  body, .container {
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+
+  .Hero-sec .call {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .Hero-sec .call h2 {
+    font-size: 20px;
+  }
+
+  .Hero-sec .call p {
+    font-size: 16px;
+  }
+
+  .Hero-sec button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .Hero-sec .subtext {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
 
 

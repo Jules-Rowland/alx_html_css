@@ -224,7 +224,6 @@ box-sizing: border-box;
     align-items: center;
     padding-top: 100px;
 }
-
 .hp, .pen2, .pen3, .pen4{
      position: absolute;
 }
@@ -237,6 +236,42 @@ box-sizing: border-box;
     margin-top: 5px;
     font-size: 10px;
     margin-left: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 50vh;
+   row-gap: 30px;
+   font-size: 15px;
+   font-family: 'Source Sans 3', sans-serif;
+   color: #7a7777;
+}
+.data1, .data2{
+    position: relative;
+   
+}
+label{
+    position: absolute;
+    top: -10px;
+    
+}
+form input{
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.815);
+    width: 350px;
+}
+button {
+  border-radius: 22px;
+  border: none;
+  background-color: #FF6565;
+  padding: 10px 20px;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
 }
 
 @media screen and (max-width: 480px) {
@@ -353,4 +388,33 @@ box-sizing: border-box;
     background-color: #eee;
     border-radius: 10px;
   }
+
+  .cont4 {
+    padding: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .data1, .data2, .data4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .data4 button {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+
 }
